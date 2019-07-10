@@ -2,4 +2,9 @@
   <ActionBar>
     <Label text={{this.title}} class="label" />
   </ActionBar>
+  <StackLayout>
+    <Label text={{this.count}}></Label>
+    <Button {{on "tap" (action this.clicked)}} text="Click Me"></Button>
+    <LinkTo @target="Page2" @text="Go to Page 2"></LinkTo>
+  </StackLayout>
 </Page>

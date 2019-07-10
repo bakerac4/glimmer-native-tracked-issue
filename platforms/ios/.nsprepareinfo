@@ -1,0 +1,15 @@
+{
+	"nativePlatformStatus": "3",
+	"appFilesHashes": {
+		"/Users/adambaker/Development/glimmer-tracked-issue/app/app.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"/Users/adambaker/Development/glimmer-tracked-issue/app/app.d.ts": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+		"/Users/adambaker/Development/glimmer-tracked-issue/app/app.ts": "2bb1a37f6240b5241eb8684812bb0aacd89b6a13",
+		"/Users/adambaker/Development/glimmer-tracked-issue/app/package.json": "de925cecceed63b4bc9cce0b453ebdc7007bb07c"
+	},
+	"release": false,
+	"bundle": true,
+	"changesRequireBuild": true,
+	"time": "Wed Jul 10 2019 07:42:25 GMT-0400 (Eastern Daylight Time)",
+	"changesRequireBuildTime": "Wed Jul 10 2019 07:42:25 GMT-0400 (Eastern Daylight Time)",
+	"projectFileHash": "caf789eb896cead95e358f237488e1f35810b7d14e4f6dae44980ef6587a62cc"
+}
