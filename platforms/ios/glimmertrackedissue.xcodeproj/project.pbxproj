@@ -10,16 +10,21 @@
 		858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 858B833A18CA111C00AB12DE /* InfoPlist.strings */; };
 		CD45EE7C18DC2D5800FB50C0 /* app in Resources */ = {isa = PBXBuildFile; fileRef = CD45EE7A18DC2D5800FB50C0 /* app */; };
 		CD62955D1BB2678900AE3A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD62955C1BB2678900AE3A93 /* main.m */; };
-		E328C2FD13954F75A72779BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D64EA547D341B4AB01DBD8 /* Assets.xcassets */; };
-		F1C7A72DC00E439EA04A76D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D77CC365D442FF974FC5D1 /* LaunchScreen.storyboard */; };
-		6FB20D4BFB374F098E4E1515 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C7594251787F43FEA1FC00CC /* build.xcconfig */; };
-		1C54484EDD66465E8F4C7F2D /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC5DDFAC7A345AEBBB7CB3A /* NativeScriptEmbedder.m */; };
-		6C78B1B6BA414512A5585654 /* TNSSideDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C47B6542BA4BB9979EBF42 /* TNSSideDrawer.framework */; };
-		A8D03AB172F347E99C4BCAC4 /* TNSSideDrawer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 92C47B6542BA4BB9979EBF42 /* TNSSideDrawer.framework */; };
-		7158DE59421F4EE7BE24DE34 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D273E1E95EB747EA8EDE575E /* TNSWidgets.framework */; };
-		809CEA51B8404DA8B054C4E7 /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D273E1E95EB747EA8EDE575E /* TNSWidgets.framework */; };
-		D61A975B075F412BBC8D318A /* TNSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F472ED5182746C6812567FF /* TNSCore.framework */; };
-		571ACA6DF1994FBDB12992CA /* TNSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2F472ED5182746C6812567FF /* TNSCore.framework */; };
+		F7547E9E77CE4A89AB1A89DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 005FCFD9D0054F8CBCE1128C /* Assets.xcassets */; };
+		38F1309DD8E0473791E198E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F333EACFAC4A4CECB96C8577 /* LaunchScreen.storyboard */; };
+		3C2F90B57FD341A09750E004 /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 0D29009CCBED4D66B13AC5E6 /* build.xcconfig */; };
+		01B56BB5F1E84BD2AA0E5E92 /* NativeScriptEmbedder.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1568D490544692880F68F7 /* NativeScriptEmbedder.m */; };
+		B30890E1218C4DFDA678AD42 /* TNSSideDrawer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC4E43F5AA44AB1ACA99608 /* TNSSideDrawer.framework */; };
+		98DA75F02B0C41B193C93927 /* TNSSideDrawer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC4E43F5AA44AB1ACA99608 /* TNSSideDrawer.framework */; };
+		1156CAE117EE4CAA909601DB /* MDFInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA1EAC6888047019595D8E9 /* MDFInternationalization.framework */; };
+		EDEF00FE3C9F4E97B401B809 /* MDFInternationalization.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA1EAC6888047019595D8E9 /* MDFInternationalization.framework */; };
+		5D7C5E7448E944128B0EAAC5 /* MaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4829C7F2060F4B24B5309A57 /* MaterialComponents.framework */; };
+		440DB5FF94C040F89131D7EA /* MaterialComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4829C7F2060F4B24B5309A57 /* MaterialComponents.framework */; };
+		55F8510EBEE246F1B4867A21 /* Pods_TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80566EE009FA482A82A85C5F /* Pods_TNSWidgets.framework */; };
+		80C360566E7B4D9A8E062634 /* TNSWidgets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF07418DA7184812BE65224C /* TNSWidgets.framework */; };
+		399832691FE54729889D02BF /* TNSWidgets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF07418DA7184812BE65224C /* TNSWidgets.framework */; };
+		21039614EEAD41C8A57AAE9D /* TNSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F0905238494FDAAF6CC884 /* TNSCore.framework */; };
+		DDDBF01E935C455CA3277BC5 /* TNSCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2F0905238494FDAAF6CC884 /* TNSCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,9 +34,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A8D03AB172F347E99C4BCAC4 /* TNSSideDrawer.framework in Embed Frameworks */,
-				809CEA51B8404DA8B054C4E7 /* TNSWidgets.framework in Embed Frameworks */,
-				571ACA6DF1994FBDB12992CA /* TNSCore.framework in Embed Frameworks */,
+				98DA75F02B0C41B193C93927 /* TNSSideDrawer.framework in Embed Frameworks */,
+				EDEF00FE3C9F4E97B401B809 /* MDFInternationalization.framework in Embed Frameworks */,
+				440DB5FF94C040F89131D7EA /* MaterialComponents.framework in Embed Frameworks */,
+				399832691FE54729889D02BF /* TNSWidgets.framework in Embed Frameworks */,
+				DDDBF01E935C455CA3277BC5 /* TNSCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,15 +62,18 @@
 		CDD59A261BB43B5D00EC2671 /* build-debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-debug.xcconfig"; sourceTree = "<group>"; };
 		CDD59A271BB43B5D00EC2671 /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "build-release.xcconfig"; sourceTree = "<group>"; };
 		CDF4743E1BA4855C0087EA85 /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = build.xcconfig; sourceTree = "<group>"; };
-		93D64EA547D341B4AB01DBD8 /* Assets.xcassets */ = {isa = PBXFileReference; name = Assets.xcassets; path = "glimmertrackedissue/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = folder.assetcatalog; explicitFileType = undefined; includeInIndex = 0; };
-		63D77CC365D442FF974FC5D1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; name = LaunchScreen.storyboard; path = "glimmertrackedissue/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C7594251787F43FEA1FC00CC /* build.xcconfig */ = {isa = PBXFileReference; name = build.xcconfig; path = "glimmertrackedissue/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
-		0EDE32496E5E49C79A4770F7 /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; name = NativeScriptEmbedder.h; path = "../../node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		4CC5DDFAC7A345AEBBB7CB3A /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; name = NativeScriptEmbedder.m; path = "../../node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		9A5DD99E625E4E2DACDA7427 /* module.modulemap */ = {isa = PBXFileReference; name = module.modulemap; path = "../../node_modules/tns-core-modules/platforms/ios/src/module.modulemap"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = sourcecode.module-map; explicitFileType = undefined; includeInIndex = 0; };
-		92C47B6542BA4BB9979EBF42 /* TNSSideDrawer.framework */ = {isa = PBXFileReference; name = TNSSideDrawer.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-sidedrawer/platforms/ios/TNSSideDrawer.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		D273E1E95EB747EA8EDE575E /* TNSWidgets.framework */ = {isa = PBXFileReference; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		2F472ED5182746C6812567FF /* TNSCore.framework */ = {isa = PBXFileReference; name = TNSCore.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		005FCFD9D0054F8CBCE1128C /* Assets.xcassets */ = {isa = PBXFileReference; name = Assets.xcassets; path = "glimmertrackedissue/Resources/Assets.xcassets"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = folder.assetcatalog; explicitFileType = undefined; includeInIndex = 0; };
+		F333EACFAC4A4CECB96C8577 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; name = LaunchScreen.storyboard; path = "glimmertrackedissue/Resources/LaunchScreen.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D29009CCBED4D66B13AC5E6 /* build.xcconfig */ = {isa = PBXFileReference; name = build.xcconfig; path = "glimmertrackedissue/Resources/build.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
+		F958A72D948A47E09E64E846 /* NativeScriptEmbedder.h */ = {isa = PBXFileReference; name = NativeScriptEmbedder.h; path = "../../node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		EE1568D490544692880F68F7 /* NativeScriptEmbedder.m */ = {isa = PBXFileReference; name = NativeScriptEmbedder.m; path = "../../node_modules/tns-core-modules/platforms/ios/src/NativeScriptEmbedder.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		FBA6BA37E62148F7AD42BD3E /* module.modulemap */ = {isa = PBXFileReference; name = module.modulemap; path = "../../node_modules/tns-core-modules/platforms/ios/src/module.modulemap"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = sourcecode.module-map; explicitFileType = undefined; includeInIndex = 0; };
+		9DC4E43F5AA44AB1ACA99608 /* TNSSideDrawer.framework */ = {isa = PBXFileReference; name = TNSSideDrawer.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-sidedrawer/platforms/ios/TNSSideDrawer.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		9BA1EAC6888047019595D8E9 /* MDFInternationalization.framework */ = {isa = PBXFileReference; name = MDFInternationalization.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/MDFInternationalization.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		4829C7F2060F4B24B5309A57 /* MaterialComponents.framework */ = {isa = PBXFileReference; name = MaterialComponents.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		80566EE009FA482A82A85C5F /* Pods_TNSWidgets.framework */ = {isa = PBXFileReference; name = Pods_TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/Pods_TNSWidgets.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		BF07418DA7184812BE65224C /* TNSWidgets.framework */ = {isa = PBXFileReference; name = TNSWidgets.framework; path = "$(SRCROOT)/../../node_modules/tns-core-modules-widgets/platforms/ios/TNSWidgets.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		C2F0905238494FDAAF6CC884 /* TNSCore.framework */ = {isa = PBXFileReference; name = TNSCore.framework; path = "$(SRCROOT)/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,9 +81,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C78B1B6BA414512A5585654 /* TNSSideDrawer.framework in Frameworks */,
-				7158DE59421F4EE7BE24DE34 /* TNSWidgets.framework in Frameworks */,
-				D61A975B075F412BBC8D318A /* TNSCore.framework in Frameworks */,
+				B30890E1218C4DFDA678AD42 /* TNSSideDrawer.framework in Frameworks */,
+				1156CAE117EE4CAA909601DB /* MDFInternationalization.framework in Frameworks */,
+				5D7C5E7448E944128B0EAAC5 /* MaterialComponents.framework in Frameworks */,
+				55F8510EBEE246F1B4867A21 /* Pods_TNSWidgets.framework in Frameworks */,
+				80C360566E7B4D9A8E062634 /* TNSWidgets.framework in Frameworks */,
+				21039614EEAD41C8A57AAE9D /* TNSCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +100,8 @@
 				858B833718CA111C00AB12DE /* glimmertrackedissue */,
 				858B833018CA111C00AB12DE /* Frameworks */,
 				858B832F18CA111C00AB12DE /* Products */,
-				58A49CCC01694264B022E654 /* TNSNativeSource */,
-				BCCA61DE2E1044A0A7D71C92 /* tns-core-modules */,
+				45CFBAF85E8C471DA3BF9A42 /* TNSNativeSource */,
+				C30A006CC27347D792082ACE /* tns-core-modules */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,9 +117,12 @@
 		858B833018CA111C00AB12DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				92C47B6542BA4BB9979EBF42 /* TNSSideDrawer.framework */,
-				D273E1E95EB747EA8EDE575E /* TNSWidgets.framework */,
-				2F472ED5182746C6812567FF /* TNSCore.framework */,
+				9DC4E43F5AA44AB1ACA99608 /* TNSSideDrawer.framework */,
+				9BA1EAC6888047019595D8E9 /* MDFInternationalization.framework */,
+				4829C7F2060F4B24B5309A57 /* MaterialComponents.framework */,
+				80566EE009FA482A82A85C5F /* Pods_TNSWidgets.framework */,
+				BF07418DA7184812BE65224C /* TNSWidgets.framework */,
+				C2F0905238494FDAAF6CC884 /* TNSCore.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,26 +159,26 @@
 		E070579D1B39A9D000214BF1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				93D64EA547D341B4AB01DBD8 /* Assets.xcassets */,
-				63D77CC365D442FF974FC5D1 /* LaunchScreen.storyboard */,
-				C7594251787F43FEA1FC00CC /* build.xcconfig */,
+				005FCFD9D0054F8CBCE1128C /* Assets.xcassets */,
+				F333EACFAC4A4CECB96C8577 /* LaunchScreen.storyboard */,
+				0D29009CCBED4D66B13AC5E6 /* build.xcconfig */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		58A49CCC01694264B022E654 /* TNSNativeSource */ = {
+		45CFBAF85E8C471DA3BF9A42 /* TNSNativeSource */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = TNSNativeSource;
 			sourceTree = "<group>";
 		};
-		BCCA61DE2E1044A0A7D71C92 /* tns-core-modules */ = {
+		C30A006CC27347D792082ACE /* tns-core-modules */ = {
 			isa = PBXGroup;
 			children = (
-				0EDE32496E5E49C79A4770F7 /* NativeScriptEmbedder.h */,
-				4CC5DDFAC7A345AEBBB7CB3A /* NativeScriptEmbedder.m */,
-				9A5DD99E625E4E2DACDA7427 /* module.modulemap */,
+				F958A72D948A47E09E64E846 /* NativeScriptEmbedder.h */,
+				EE1568D490544692880F68F7 /* NativeScriptEmbedder.m */,
+				FBA6BA37E62148F7AD42BD3E /* module.modulemap */,
 			);
 			name = tns-core-modules;
 			sourceTree = "<group>";
@@ -225,9 +241,9 @@
 			files = (
 				CD45EE7C18DC2D5800FB50C0 /* app in Resources */,
 				858B842D18CA22B800AB12DE /* InfoPlist.strings in Resources */,
-				E328C2FD13954F75A72779BC /* Assets.xcassets in Resources */,
-				F1C7A72DC00E439EA04A76D3 /* LaunchScreen.storyboard in Resources */,
-				6FB20D4BFB374F098E4E1515 /* build.xcconfig in Resources */,
+				F7547E9E77CE4A89AB1A89DE /* Assets.xcassets in Resources */,
+				38F1309DD8E0473791E198E4 /* LaunchScreen.storyboard in Resources */,
+				3C2F90B57FD341A09750E004 /* build.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD62955D1BB2678900AE3A93 /* main.m in Sources */,
-				1C54484EDD66465E8F4C7F2D /* NativeScriptEmbedder.m in Sources */,
+				01B56BB5F1E84BD2AA0E5E92 /* NativeScriptEmbedder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +351,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD = $SRCROOT/internal/nsld.sh;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				STRIP_SWIFT_SYMBOLS = NO;
@@ -373,7 +388,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD = $SRCROOT/internal/nsld.sh;
 				SDKROOT = iphoneos;
 				STRIP_SWIFT_SYMBOLS = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$SRCROOT/internal/Swift-ObjC-Bridging-Header.h";
@@ -397,8 +411,8 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"$SRCROOT/internal/Swift-Modules",
-					"$(SRCROOT)/internal",
+					"\"$SRCROOT/internal/Swift-Modules\"",
+					"\"$(SRCROOT)/internal\"",
 					"\"$(SRCROOT)/../../app/App_Resources/iOS/src\"",
 					"\"$(SRCROOT)/../../node_modules/tns-core-modules/platforms/ios/src\"",
 				);

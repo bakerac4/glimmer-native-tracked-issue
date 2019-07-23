@@ -156,7 +156,7 @@ typedef void (^MPSGradientNodeBlock)( MPSNNFilterNode * __nonnull gradientNode,
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework/Frameworks/MPSNeuralNetwork.framework/Headers/MPSNNGraphNodes.h:2252:1: note: annotate 'initWithSource:lossDescriptor:' with an availability attribute to silence this warning
 -(nonnull instancetype) initWithSource: (MPSNNImageNode * __nonnull) source
 ^
-In file included from umbrella.h:612:
+In file included from umbrella.h:613:
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h:349:97: warning: availability does not match previous declaration [-Wavailability]
 GL_API GLvoid GL_APIENTRY glGetBufferPointervOES (GLenum target, GLenum pname, GLvoid **params) OPENGLES_DEPRECATED(ios(2.0, 12.0), tvos(9.0, 12.0));
                                                                                                 ^
@@ -175,7 +175,7 @@ GL_API GLvoid GL_APIENTRY glGetBufferPointervOES (GLenum target, GLenum pname, G
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/os/availability.h:80:165: note: expanded from macro 'API_DEPRECATED'
     #define API_DEPRECATED(...) __API_DEPRECATED_MSG_GET_MACRO(__VA_ARGS__,__API_DEPRECATED_MSG7, __API_DEPRECATED_MSG6,__API_DEPRECATED_MSG5,__API_DEPRECATED_MSG4,__API_DEPRECATED_MSG3,__API_DEPRECATED_MSG2,__API_DEPRECATED_MSG1, 0)(__VA_ARGS__)
                                                                                                                                                                     ^
-In file included from umbrella.h:612:
+In file included from umbrella.h:613:
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h:350:75: warning: availability does not match previous declaration [-Wavailability]
 GL_API GLvoid * GL_APIENTRY glMapBufferOES (GLenum target, GLenum access) OPENGLES_DEPRECATED(ios(2.0, 12.0), tvos(9.0, 12.0));
                                                                           ^
@@ -194,7 +194,7 @@ GL_API GLvoid * GL_APIENTRY glMapBufferOES (GLenum target, GLenum access) OPENGL
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/os/availability.h:80:165: note: expanded from macro 'API_DEPRECATED'
     #define API_DEPRECATED(...) __API_DEPRECATED_MSG_GET_MACRO(__VA_ARGS__,__API_DEPRECATED_MSG7, __API_DEPRECATED_MSG6,__API_DEPRECATED_MSG5,__API_DEPRECATED_MSG4,__API_DEPRECATED_MSG3,__API_DEPRECATED_MSG2,__API_DEPRECATED_MSG1, 0)(__VA_ARGS__)
                                                                                                                                                                     ^
-In file included from umbrella.h:612:
+In file included from umbrella.h:613:
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h:351:63: warning: availability does not match previous declaration [-Wavailability]
 GL_API GLboolean GL_APIENTRY glUnmapBufferOES (GLenum target) OPENGLES_DEPRECATED(ios(2.0, 12.0), tvos(9.0, 12.0));
                                                               ^
@@ -213,14 +213,48 @@ GL_API GLboolean GL_APIENTRY glUnmapBufferOES (GLenum target) OPENGLES_DEPRECATE
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/os/availability.h:80:165: note: expanded from macro 'API_DEPRECATED'
     #define API_DEPRECATED(...) __API_DEPRECATED_MSG_GET_MACRO(__VA_ARGS__,__API_DEPRECATED_MSG7, __API_DEPRECATED_MSG6,__API_DEPRECATED_MSG5,__API_DEPRECATED_MSG4,__API_DEPRECATED_MSG3,__API_DEPRECATED_MSG2,__API_DEPRECATED_MSG1, 0)(__VA_ARGS__)
                                                                                                                                                                     ^
-In file included from umbrella.h:787:
+In file included from umbrella.h:637:
+In file included from /Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MaterialComponents-umbrella.h:26:
+In file included from /Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MaterialTabs.h:15:
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBar.h:85:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) UIColor *selectedItemTintColor UI_APPEARANCE_SELECTOR;
+^
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBar.h:85:1: warning: default property attribute 'assign' not appropriate for object [-Wobjc-property-no-attribute]
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBar.h:91:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nonnull) UIColor *unselectedItemTintColor UI_APPEARANCE_SELECTOR;
+^
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBar.h:91:1: warning: default property attribute 'assign' not appropriate for object [-Wobjc-property-no-attribute]
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBar.h:94:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nonnull) UIColor *inkColor UI_APPEARANCE_SELECTOR;
+^
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBar.h:94:1: warning: default property attribute 'assign' not appropriate for object [-Wobjc-property-no-attribute]
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBar.h:97:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nonnull) UIColor *bottomDividerColor;
+^
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBar.h:97:1: warning: default property attribute 'assign' not appropriate for object [-Wobjc-property-no-attribute]
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBar.h:124:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) UIColor *barTintColor UI_APPEARANCE_SELECTOR;
+^
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBar.h:124:1: warning: default property attribute 'assign' not appropriate for object [-Wobjc-property-no-attribute]
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBar.h:164:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, null_resettable) id<MDCTabBarIndicatorTemplate> selectionIndicatorTemplate
+^
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBar.h:164:1: warning: default property attribute 'assign' not appropriate for object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:637:
+In file included from /Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MaterialComponents-umbrella.h:26:
+In file included from /Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MaterialTabs.h:17:
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBarIndicatorAttributes.h:21:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
+@property(nonatomic, nullable) UIBezierPath *path;
+^
+/Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios/MaterialComponents.framework/Headers/MDCTabBarIndicatorAttributes.h:21:1: warning: default property attribute 'assign' not appropriate for object [-Wobjc-property-no-attribute]
+In file included from umbrella.h:790:
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceRef.h:15:97: warning: unknown attribute 'swift_name' ignored [-Wunknown-attributes]
 typedef struct CF_BRIDGED_TYPE(id) CF_BRIDGED_MUTABLE_TYPE(IOSurface) __IOSurface *IOSurfaceRef IOSFC_SWIFT_NAME(IOSurfaceRef);
                                                                                                 ^
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h:38:47: note: expanded from macro 'IOSFC_SWIFT_NAME'
 #define IOSFC_SWIFT_NAME(name) __attribute__((swift_name(#name)))
                                               ^
-In file included from umbrella.h:817:
+In file included from umbrella.h:820:
 In file included from /Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework/Headers/TNSCore.h:58:
 /Users/adambaker/Development/glimmer-tracked-issue/platforms/ios/../../node_modules/nativescript-ui-core/platforms/ios/TNSCore.framework/Headers/TKGridLayoutCellDefinition.h:87:1: warning: no 'assign', 'retain', or 'copy' attribute is specified - 'assign' is assumed [-Wobjc-property-no-attribute]
 @property (nonatomic) NSNumber *row;
@@ -24688,6 +24722,19 @@ verbose: Included PassThroughParent from TNSWidgets.UIView_PassThroughParent
 verbose: Included TNSLabel from TNSWidgets.TNSLabel
 verbose: Included __tns_uptime from TNSWidgets.TNSProcess
 verbose: Included __nslog from TNSWidgets.TNSProcess
+verbose: Included MDFLeadingMarginAutoresizingMaskForLayoutDirection from MDFInternationalization.MDFRTL
+verbose: Included MDFTrailingMarginAutoresizingMaskForLayoutDirection from MDFInternationalization.MDFRTL
+verbose: Included MDFRectFlippedHorizontally from MDFInternationalization.MDFRTL
+verbose: Included MDFInsetsFlippedHorizontally from MDFInternationalization.MDFRTL
+verbose: Included MDFInsetsMakeWithLayoutDirection from MDFInternationalization.MDFRTL
+verbose: Included MaterialRTL from MDFInternationalization.NSLocale_MaterialRTL
+verbose: Included MaterialBidi from MDFInternationalization.NSString_MaterialBidi
+verbose: Included MaterialRTL from MDFInternationalization.UIImage_MaterialRTL
+verbose: Included MaterialRTL from MDFInternationalization.UIView_MaterialRTL
+verbose: Included MDFInternationalizationVersionNumber from MDFInternationalization.MDFInternationalization
+verbose: Included MDFInternationalizationVersionString from MDFInternationalization.MDFInternationalization
+verbose: Included MDFInternationalizationVersionNumber from MDFInternationalization
+verbose: Included MDFInternationalizationVersionString from MDFInternationalization
 verbose: Included DCDevice from DeviceCheck.DCDevice
 verbose: Included DCErrorDomain from DeviceCheck.DCError
 verbose: Included DCError from DeviceCheck.DCError
@@ -29586,6 +29633,138 @@ verbose: Included ABMultiValueReplaceValueAtIndex from AddressBook.ABMultiValue
 verbose: Included ABMultiValueReplaceLabelAtIndex from AddressBook.ABMultiValue
 verbose: Included NativeScriptEmbedderDelegate from NativeScriptEmbedder
 verbose: Included NativeScriptEmbedder from NativeScriptEmbedder
+verbose: Included MDCAnimationTimingFunction from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTimingFunctionStandard from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTimingFunctionDeceleration from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTimingFunctionAcceleration from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTimingFunctionSharp from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTimingFunctionEaseInOut from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTimingFunctionEaseOut from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTimingFunctionEaseIn from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTimingFunctionTranslate from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTimingFunctionTranslateOnScreen from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTimingFunctionTranslateOffScreen from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTimingFunctionFadeIn from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTimingFunctionFadeOut from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCAnimationTiming from MaterialComponents.CAMediaTimingFunction_MDCAnimationTiming
+verbose: Included MDCTimingFunction from MaterialComponents.UIView_MDCTimingFunction
+verbose: Included MDCInkGestureRecognizer from MaterialComponents.MDCInkGestureRecognizer
+verbose: Included MDCInkTouchController from MaterialComponents.MDCInkTouchController
+verbose: Included MDCInkTouchControllerDelegate from MaterialComponents.MDCInkTouchController
+verbose: Included MDCInkStyle from MaterialComponents.MDCInkView
+verbose: Included MDCInkStyleBounded from MaterialComponents.MDCInkView
+verbose: Included MDCInkStyleUnbounded from MaterialComponents.MDCInkView
+verbose: Included MDCInkView from MaterialComponents.MDCInkView
+verbose: Included MDCInkViewDelegate from MaterialComponents.MDCInkView
+verbose: Included MDCPaletteTint50Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteTint100Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteTint200Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteTint300Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteTint400Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteTint500Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteTint600Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteTint700Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteTint800Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteTint900Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteAccent100Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteAccent200Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteAccent400Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPaletteAccent700Name from MaterialComponents.MDCPalettes
+verbose: Included MDCPalette from MaterialComponents.MDCPalettes
+verbose: Included MDCShadowElevationAppBar from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationBottomNavigationBar from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationCardPickedUp from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationCardResting from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationDialog from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationFABPressed from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationFABResting from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationMenu from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationModalBottomSheet from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationNavDrawer from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationNone from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationPicker from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationQuickEntry from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationQuickEntryResting from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationRaisedButtonPressed from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationRaisedButtonResting from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationRefresh from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationRightDrawer from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationSearchBarResting from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationSearchBarScrolled from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationSnackbar from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationSubMenu from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowElevationSwitch from MaterialComponents.MDCShadowElevations
+verbose: Included MDCShadowMetrics from MaterialComponents.MDCShadowLayer
+verbose: Included MDCShadowLayer from MaterialComponents.MDCShadowLayer
+verbose: Included Subclassing from MaterialComponents.MDCShadowLayer
+verbose: Included MDCTabBarAlignment from MaterialComponents.MDCTabBarAlignment
+verbose: Included MDCTabBarAlignmentLeading from MaterialComponents.MDCTabBarAlignment
+verbose: Included MDCTabBarAlignmentJustified from MaterialComponents.MDCTabBarAlignment
+verbose: Included MDCTabBarAlignmentCenter from MaterialComponents.MDCTabBarAlignment
+verbose: Included MDCTabBarAlignmentCenterSelected from MaterialComponents.MDCTabBarAlignment
+verbose: Included MDCTabBarItemAppearance from MaterialComponents.MDCTabBarItemAppearance
+verbose: Included MDCTabBarItemAppearanceTitles from MaterialComponents.MDCTabBarItemAppearance
+verbose: Included MDCTabBarItemAppearanceImages from MaterialComponents.MDCTabBarItemAppearance
+verbose: Included MDCTabBarItemAppearanceTitledImages from MaterialComponents.MDCTabBarItemAppearance
+verbose: Included MDCTabBarTextTransform from MaterialComponents.MDCTabBarTextTransform
+verbose: Included MDCTabBarTextTransformAutomatic from MaterialComponents.MDCTabBarTextTransform
+verbose: Included MDCTabBarTextTransformNone from MaterialComponents.MDCTabBarTextTransform
+verbose: Included MDCTabBarTextTransformUppercase from MaterialComponents.MDCTabBarTextTransform
+verbose: Included MDCTabBarItemState from MaterialComponents.MDCTabBar
+verbose: Included MDCTabBarItemStateNormal from MaterialComponents.MDCTabBar
+verbose: Included MDCTabBarItemStateSelected from MaterialComponents.MDCTabBar
+verbose: Included MDCTabBar from MaterialComponents.MDCTabBar
+verbose: Included MDCAccessibility from MaterialComponents.MDCTabBar
+verbose: Included MDCTabBarDelegate from MaterialComponents.MDCTabBar
+verbose: Included MDCTabBarIndicatorAttributes from MaterialComponents.MDCTabBarIndicatorAttributes
+verbose: Included MDCTabBarIndicatorContext from MaterialComponents.MDCTabBarIndicatorContext
+verbose: Included MDCTabBarIndicatorTemplate from MaterialComponents.MDCTabBarIndicatorTemplate
+verbose: Included MDCTabBarUnderlineIndicatorTemplate from MaterialComponents.MDCTabBarUnderlineIndicatorTemplate
+verbose: Included MDCTabBarViewControllerAnimationDuration from MaterialComponents.MDCTabBarViewController
+verbose: Included MDCTabBarViewController from MaterialComponents.MDCTabBarViewController
+verbose: Included MDCTabBarControllerDelegate from MaterialComponents.MDCTabBarViewController
+verbose: Included MDCTabBarExtendedAlignment from MaterialComponents.MDCTabBarExtendedAlignment
+verbose: Included MDCTabBarExtendedAlignmentLeading from MaterialComponents.MDCTabBarExtendedAlignment
+verbose: Included MDCTabBarExtendedAlignmentJustified from MaterialComponents.MDCTabBarExtendedAlignment
+verbose: Included MDCTabBarExtendedAlignmentCenter from MaterialComponents.MDCTabBarExtendedAlignment
+verbose: Included MDCTabBarExtendedAlignmentCenterSelected from MaterialComponents.MDCTabBarExtendedAlignment
+verbose: Included MDCTabBarExtendedAlignmentBestEffortJustified from MaterialComponents.MDCTabBarExtendedAlignment
+verbose: Included MDCTextStyleHeadline1 from MaterialComponents.MDCFontScaler
+verbose: Included MDCTextStyleHeadline2 from MaterialComponents.MDCFontScaler
+verbose: Included MDCTextStyleHeadline3 from MaterialComponents.MDCFontScaler
+verbose: Included MDCTextStyleHeadline4 from MaterialComponents.MDCFontScaler
+verbose: Included MDCTextStyleHeadline5 from MaterialComponents.MDCFontScaler
+verbose: Included MDCTextStyleHeadline6 from MaterialComponents.MDCFontScaler
+verbose: Included MDCTextStyleSubtitle1 from MaterialComponents.MDCFontScaler
+verbose: Included MDCTextStyleSubtitle2 from MaterialComponents.MDCFontScaler
+verbose: Included MDCTextStyleBody1 from MaterialComponents.MDCFontScaler
+verbose: Included MDCTextStyleBody2 from MaterialComponents.MDCFontScaler
+verbose: Included MDCTextStyleButton from MaterialComponents.MDCFontScaler
+verbose: Included MDCTextStyleCaption from MaterialComponents.MDCFontScaler
+verbose: Included MDCTextStyleOverline from MaterialComponents.MDCFontScaler
+verbose: Included MDCFontScaler from MaterialComponents.MDCFontScaler
+verbose: Included MDCFontTextStyle from MaterialComponents.MDCFontTextStyle
+verbose: Included MDCFontTextStyleBody1 from MaterialComponents.MDCFontTextStyle
+verbose: Included MDCFontTextStyleBody2 from MaterialComponents.MDCFontTextStyle
+verbose: Included MDCFontTextStyleCaption from MaterialComponents.MDCFontTextStyle
+verbose: Included MDCFontTextStyleHeadline from MaterialComponents.MDCFontTextStyle
+verbose: Included MDCFontTextStyleSubheadline from MaterialComponents.MDCFontTextStyle
+verbose: Included MDCFontTextStyleTitle from MaterialComponents.MDCFontTextStyle
+verbose: Included MDCFontTextStyleDisplay1 from MaterialComponents.MDCFontTextStyle
+verbose: Included MDCFontTextStyleDisplay2 from MaterialComponents.MDCFontTextStyle
+verbose: Included MDCFontTextStyleDisplay3 from MaterialComponents.MDCFontTextStyle
+verbose: Included MDCFontTextStyleDisplay4 from MaterialComponents.MDCFontTextStyle
+verbose: Included MDCFontTextStyleButton from MaterialComponents.MDCFontTextStyle
+verbose: Included MDCTypographyFontLoading from MaterialComponents.MDCTypography
+verbose: Included MDCTypography from MaterialComponents.MDCTypography
+verbose: Included MDCSystemFontLoader from MaterialComponents.MDCTypography
+verbose: Included MaterialScalable from MaterialComponents.UIFont_MaterialScalable
+verbose: Included MaterialSimpleEquality from MaterialComponents.UIFont_MaterialSimpleEquality
+verbose: Included MaterialTypography from MaterialComponents.UIFont_MaterialTypography
+verbose: Included MaterialTypography from MaterialComponents.UIFontDescriptor_MaterialTypography
+verbose: Included AppExtensions from MaterialComponents.UIApplication_AppExtensions
+verbose: Included MaterialComponentsVersionNumber from MaterialComponents
+verbose: Included MaterialComponentsVersionString from MaterialComponents
 verbose: Included AVKitErrorDomain from AVKit.AVError
 verbose: Included AVKitError from AVKit.AVError
 verbose: Included AVKitErrorUnknown from AVKit.AVError
@@ -29599,6 +29778,8 @@ verbose: Included AVRoutePickerViewButtonStyleSystem from AVKit.AVRoutePickerVie
 verbose: Included AVRoutePickerViewButtonStylePlain from AVKit.AVRoutePickerView
 verbose: Included AVRoutePickerViewButtonStyleCustom from AVKit.AVRoutePickerView
 verbose: Included AVRoutePickerViewDelegate from AVKit.AVRoutePickerView
+verbose: Included Pods_TNSWidgetsVersionNumber from Pods_TNSWidgets
+verbose: Included Pods_TNSWidgetsVersionString from Pods_TNSWidgets
 verbose: Included dispatch_introspection_hook_queue_create from DispatchIntrospection
 verbose: Included dispatch_introspection_hook_queue_destroy from DispatchIntrospection
 verbose: Included dispatch_introspection_hook_queue_item_enqueue from DispatchIntrospection
@@ -40649,4 +40830,4 @@ verbose: Included alcCaptureCloseDevice from OpenAL.alc
 verbose: Included alcCaptureStart from OpenAL.alc
 verbose: Included alcCaptureStop from OpenAL.alc
 verbose: Included alcCaptureSamples from OpenAL.alc
-19 warnings generated.
+33 warnings generated.

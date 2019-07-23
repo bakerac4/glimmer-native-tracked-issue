@@ -3,7 +3,7 @@
 To run this 
 
 1. Follow the NativeScript Setup Guides https://docs.nativescript.org/angular/start/quick-setup
-2. tns debug ios --bundle --debug-brk
+2. tns debug ios --debug-brk
 
 
 To see the issue just tap "Click Me" multiple times, then click "Go to Page 2". Once on page two, click "Back" in the ActionBar
